@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Set the card background color here -->
+            <solid android:color="@android:color/white" />
+            <!-- Set the card corner radius here -->
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <item
+        android:bottom="4dp"
+        android:right="4dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:centerX="50%"
+                android:centerY="50%"
+                android:gradientRadius="6dp"
+                android:startColor="#22000000"
+                android:endColor="@android:color/white"/>
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <item
+        android:left="4dp"
+        android:top="4dp">
+        <shape android:shape="rectangle">
+            <!-- Set the highlight color and size here -->
+            <solid android:color="@color/black" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</layer-list>
